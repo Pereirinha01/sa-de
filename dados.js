@@ -1,6 +1,6 @@
 let dados = [
     {
-        titulo : "Arroz Baranco",
+        titulo : "Arroz Branco",
         descricao : "Grupo Alimentar: Cereais Nutrientes Principal fonte de carboidratos, fornece energia. Também contém pequenas quantidades de proteínas e minerais como manganês e selênio.Benefícios É um alimento de baixo custo e fácil preparo.Riscos O consumo excessivo de arroz branco orgânico pode aumentar os níveis de açúcar no sangue rapidamente e fornecer poucas fibras.Observações Existem diversas variedades de arroz, como integral, parboilizado e selvagem, com diferentes perfis nutricionais.",
         link : "https://pt.wikipedia.org/wiki/Arroz_branco"
     },
@@ -63,6 +63,101 @@ let dados = [
         titulo: "Iogurte Natural",
         descricao: "Grupo Alimentar: Laticínios <p>Nutrientes: Rico em cálcio, proteínas de alta qualidade e probióticos, que são bactérias benéficas para a flora intestinal. Também contém vitaminas do complexo B e fósforo.</p> <p>Benefícios: Fortalece os ossos e dentes, auxilia na digestão, fortalece o sistema imunológico e pode ajudar a prevenir doenças como a osteoporose.</p> <p>Riscos: Pessoas com intolerância à lactose devem evitar ou consumir iogurtes com baixo teor de lactose. O consumo excessivo de iogurtes com adição de açúcar pode contribuir para o ganho de peso.</p> <p>Observações: O iogurte grego é uma opção mais concentrada em proteínas e com menos lactose. É importante escolher iogurtes com adição mínima de açúcar e sem outros ingredientes artificiais.</p>",
         link: "https://www.tuasaude.com/beneficios-do-iogurte/"
+    },
+    {
+        titulo: "Amêndoas",
+        descricao: "Grupo Alimentar: Oleaginosas <p>Nutrientes: Ricas em gorduras saudáveis (monoinsaturadas e poliinsaturadas), fibras, proteínas vegetais e uma variedade de vitaminas e minerais, como vitamina E, magnésio e fósforo.</p> <p>Benefícios: Auxiliam na redução do colesterol ruim, controlam a pressão arterial, promovem a saciedade, contribuem para a saúde do coração e do cérebro, e são uma excelente fonte de antioxidantes.</p> <p>Riscos: Devido ao alto teor calórico, o consumo excessivo pode levar ao ganho de peso. Pessoas com alergia a frutos secos devem evitar.</p> <p>Observações: Amêndoas são versáteis e podem ser consumidas in natura, em receitas, ou como parte de um lanche saudável. É importante escolher opções sem adição de sal ou açúcar.</p>",
+        link: "https://www.tuasaude.com/5-beneficios-da-amendoa-para-a-saude/"
+    },
+    {
+        titulo: "Morango",
+        descricao: "Grupo Alimentar: Frutas <p>Nutrientes: Rico em vitamina C, antioxidantes e fibras. Também contém vitaminas do complexo B e minerais como potássio e manganês.</p> <p>Benefícios: Fortalece o sistema imunológico, possui ação antioxidante, auxilia na digestão e contribui para a saúde da pele.</p> <p>Riscos: O consumo excessivo pode causar problemas estomacais em algumas pessoas. A presença de agrotóxicos é uma preocupação, por isso é importante escolher morangos orgânicos ou lavar bem antes de consumir.</p> <p>Observações: O morango é uma fruta versátil e pode ser consumido in natura, em saladas de frutas, iogurtes, sobremesas e até mesmo em pratos salgados.</p>",
+        link: "https://www.tuasaude.com/beneficios-do-morango/"
+    },
+    {
+        titulo: "Framboesa",
+        descricao: "Grupo Alimentar: Frutas <p>Nutrientes: Rica em vitamina C, antioxidantes e fibras. Também contém vitaminas do complexo B e minerais como manganês.</p> <p>Benefícios: Fortalece o sistema imunológico, possui ação antioxidante, auxilia na digestão e contribui para a saúde da pele.</p> <p>Riscos: O consumo excessivo pode causar problemas estomacais em algumas pessoas. A presença de agrotóxicos é uma preocupação, por isso é importante escolher framboesas orgânicas ou lavar bem antes de consumir.</p> <p>Observações: A framboesa é uma fruta versátil e pode ser consumida in natura, em sobremesas, iogurtes e até mesmo em pratos salgados.</p>",
+        link: "https://www.tuasaude.com/beneficios-da-framboesa/"
+    },
+    {
+        titulo: "Amora",
+        descricao: "Grupo Alimentar: Frutas <p>Nutrientes: Rica em vitamina C, antioxidantes e fibras. Também contém vitaminas do complexo B e minerais como manganês.</p> <p>Benefícios: Fortalece o sistema imunológico, possui ação antioxidante, auxilia na digestão e contribui para a saúde da pele.</p> <p>Riscos: O consumo excessivo pode causar problemas estomacais em algumas pessoas. A presença de agrotóxicos é uma preocupação, por isso é importante escolher amoras orgânicas ou lavar bem antes de consumir.</p> <p>Observações: A amora é uma fruta versátil e pode ser consumida in natura, em sobremesas, iogurtes e até mesmo em pratos salgados.</p>",
+        link: "https://www.tuasaude.com/beneficios-da-amora/"
+    },
+    {
+        titulo: "Mirtilo",
+        descricao: "Grupo Alimentar: Frutas <p>Nutrientes: Rico em antioxidantes, vitamina C e fibras. Também contém vitaminas do complexo B e minerais como manganês.</p> <p>Benefícios: Melhora a memória e a função cognitiva, protege a visão, fortalece o sistema imunológico e possui ação anti-inflamatória.</p> <p>Riscos: O consumo excessivo pode causar problemas estomacais em algumas pessoas. A presença de agrotóxicos é uma preocupação, por isso é importante escolher mirtilos orgânicos ou lavar bem antes de consumir.</p> <p>Observações: O mirtilo é uma fruta versátil e pode ser consumido in natura, em sobremesas, iogurtes e até mesmo em pratos salgados.</p>",
+        link: "https://www.tuasaude.com/beneficios-do-mirtilo/"
+    },
+    {
+        titulo: "Laranja",
+        descricao: "Grupo Alimentar: Frutas <p>Nutrientes: Rica em vitamina C, um poderoso antioxidante, e fibras. Também contém folato e potássio.</p> <p>Benefícios: Fortalece o sistema imunológico, auxilia na digestão, possui ação antioxidante e contribui para a saúde cardiovascular.</p> <p>Riscos: O consumo excessivo de suco de laranja pode causar cáries devido ao alto teor de açúcar natural. Pessoas com problemas estomacais devem consumir com moderação.</p> <p>Observações: A laranja é uma fruta versátil e pode ser consumida in natura, em sucos, saladas de frutas e até mesmo em pratos salgados.</p>",
+        link: "https://www.tuasaude.com/beneficios-da-laranja/"
+    },
+    {
+        titulo: "Limão",
+        descricao: "Grupo Alimentar: Frutas <p>Nutrientes: Rico em vitamina C, um poderoso antioxidante, e fibras. Também contém potássio e flavonoides.</p> <p>Benefícios: Fortalece o sistema imunológico, auxilia na digestão, possui ação antioxidante e contribui para a saúde da pele e do cabelo. Além disso, o suco de limão é um excelente tempero natural.</p> <p>Riscos: O consumo excessivo do suco pode danificar o esmalte dos dentes e causar azia em algumas pessoas. Pessoas com problemas estomacais devem consumir com moderação.</p> <p>Observações: O limão é um ingrediente versátil e pode ser utilizado em diversas receitas, tanto em pratos salgados quanto doces.</p>",
+        link: "https://www.tuasaude.com/beneficios-do-limao/"
+    },
+    {
+        titulo: "Abacaxi",
+        descricao: "Grupo Alimentar: Frutas <p>Nutrientes: Rico em vitamina C, bromelina (enzima digestiva), manganês e fibras. Também contém vitaminas do complexo B.</p> <p>Benefícios: Fortalece o sistema imunológico, auxilia na digestão, possui ação anti-inflamatória e é um ótimo diurético. A bromelina contribui para a saúde do sistema cardiovascular.</p> <p>Riscos: O consumo excessivo pode causar irritação na boca e no esôfago em pessoas sensíveis. Indivíduos com problemas estomacais devem consumir com moderação.</p> <p>Observações: O abacaxi é uma fruta versátil e pode ser consumido in natura, em sucos, saladas de frutas e até mesmo em pratos salgados.</p>",
+        link: "https://www.tuasaude.com/beneficios-do-abacaxi/"
+    },
+    {
+        titulo: "Manga",
+        descricao: "Grupo Alimentar: Frutas <p>Nutrientes: Rica em vitamina C, beta-caroteno (que o corpo converte em vitamina A), fibras e potássio.</p> <p>Benefícios: Fortalece o sistema imunológico, possui ação antioxidante, auxilia na digestão e contribui para a saúde da visão. É uma excelente fonte de energia e ajuda a manter a pele saudável.</p> <p>Riscos: O consumo excessivo pode causar problemas estomacais em algumas pessoas, especialmente se consumida com o estômago vazio. A presença de agrotóxicos é uma preocupação, por isso é importante escolher mangas orgânicas ou lavar bem antes de consumir.</p> <p>Observações: A manga é uma fruta versátil e pode ser consumida in natura, em sucos, saladas de frutas e até mesmo em pratos salgados.</p>",
+        link: "https://www.tuasaude.com/beneficios-da-manga/"
+    },
+    {
+        titulo: "Maracujá",
+        descricao: "Grupo Alimentar: Frutas <p>Nutrientes: Rico em vitamina C, fibras e compostos fenólicos como a passiflora, com ação calmante.</p> <p>Benefícios: Fortalece o sistema imunológico, auxilia na digestão, possui ação antioxidante e calmante, promovendo o relaxamento e o sono. A polpa é rica em fibras, auxiliando no funcionamento intestinal.</p> <p>Riscos: O consumo excessivo da casca pode causar problemas gastrointestinais devido à presença de fibras insolúveis. Pessoas alérgicas ao látex podem apresentar reações alérgicas.</p> <p>Observações: O maracujá é uma fruta versátil e pode ser consumido in natura, em sucos, doces, geleias e até mesmo em pratos salgados. As sementes podem ser utilizadas para fazer óleos e extratos.</p>",
+        link: "https://www.tuasaude.com/beneficios-do-maracuja/"
+    },
+    {
+        titulo: "Espinafre",
+        descricao: "Grupo Alimentar: Legumes <p>Nutrientes: Rico em ferro, vitamina K, vitamina A e ácido fólico. Também contém cálcio, potássio e manganês.</p> <p>Benefícios: Fortalece os ossos, melhora a visão, auxilia na coagulação do sangue e contribui para a saúde do coração. É uma ótima fonte de ferro, essencial para prevenir a anemia.</p> <p>Riscos: O consumo em excesso de espinafre cru pode dificultar a absorção de ferro devido à presença de oxalatos. Pessoas com cálculos renais devem consumir com moderação.</p> <p>Observações: O espinafre é um vegetal versátil e pode ser consumido cru em saladas, cozido em sopas e refogados, ou ainda em sucos e smoothies.</p>",
+        link: "https://www.tuasaude.com.br/benefícios-do-espinafre/"
+    },
+    {
+        titulo: "Rúcula",
+        descricao: "Grupo Alimentar: Legumes <p>Nutrientes: Rica em vitamina K, vitamina C, cálcio e antioxidantes como a zeaxantina e a luteína.</p> <p>Benefícios: Fortalece os ossos, melhora a visão, possui ação antioxidante e anti-inflamatória. É um alimento de baixa caloria e rico em fibras, auxiliando na digestão.</p> <p>Riscos: O consumo em excesso pode causar inchaço e gases em algumas pessoas. Pessoas com hipotireoidismo devem consumir com moderação devido à presença de goitrogênios.</p> <p>Observações: A rúcula possui um sabor levemente amargo e é muito utilizada em saladas, sanduíches e massas.</p>",
+        link: "https://www.tuasaude.com.br/beneficios-da-rucula/"
+    },
+    {
+        titulo: "Couve",
+        descricao: "Grupo Alimentar: Legumes <p>Nutrientes: Rica em vitamina K, vitamina C, cálcio e fibras. Também contém carotenoides e flavonoides, que são poderosos antioxidantes.</p> <p>Benefícios: Fortalece os ossos, melhora o sistema imunológico, possui ação antioxidante e anti-inflamatória. É um alimento de baixa caloria e rico em fibras, auxiliando na digestão e no controle do peso.</p> <p>Riscos: O consumo em excesso de couve crua pode dificultar a absorção de ferro devido à presença de oxalatos. Pessoas com hipotireoidismo devem consumir com moderação devido à presença de goitrogênios.</p> <p>Observações: A couve é um vegetal versátil e pode ser consumida crua em saladas, cozida no vapor, refogada, em sucos e sopas. É um ingrediente comum em diversas culinárias, como a brasileira, portuguesa e italiana.</p>",
+        link: "https://www.tuasaude.com.br/beneficios-da-couve/"
+    },
+    {
+        titulo: "Beterraba",
+        descricao: "Grupo Alimentar: Legumes <p>Nutrientes: Rica em betacianinas (pigmento que confere a cor roxa), folato, potássio e fibras. Também contém vitamina C e antioxidantes.</p> <p>Benefícios: Ajuda a reduzir a pressão arterial, possui ação antioxidante e anti-inflamatória. É uma ótima fonte de fibras, auxiliando na digestão e no controle do peso. O folato é essencial para a formação de células sanguíneas.</p> <p>Riscos: O consumo em excesso pode causar a urina e as fezes ficarem avermelhadas devido às betacianinas. Pessoas com cálculos renais devem consumir com moderação.</p> <p>Observações: A beterraba pode ser consumida crua em saladas, cozida no vapor, assada, em sucos e sopas. É um ingrediente comum em diversas culinárias.</p>",
+        link: "https://www.tuasaude.com.br/beneficios-da-beterraba/"
+    },
+    {
+        titulo: "Beterraba",
+        descricao: "Grupo Alimentar: Legumes <p>Nutrientes: Rica em betacianinas (pigmento que confere a cor roxa), folato, potássio e fibras. Também contém vitamina C e antioxidantes.</p> <p>Benefícios: Ajuda a reduzir a pressão arterial, possui ação antioxidante e anti-inflamatória. É uma ótima fonte de fibras, auxiliando na digestão e no controle do peso. O folato é essencial para a formação de células sanguíneas.</p> <p>Riscos: O consumo em excesso pode causar a urina e as fezes ficarem avermelhadas devido às betacianinas. Pessoas com cálculos renais devem consumir com moderação.</p> <p>Observações: A beterraba pode ser consumida crua em saladas, cozida no vapor, assada, em sucos e sopas. É um ingrediente comum em diversas culinárias.</p>",
+        link: "https://www.tuasaude.com.br/beneficios-da-beterraba/"
+    },
+    {
+        titulo: "Feijão",
+        descricao: "Grupo Alimentar: Leguminosas <p>Nutrientes: Rico em proteínas vegetais, fibras, ferro e vitaminas do complexo B. Também contém potássio, fósforo e zinco.</p> <p>Benefícios: Auxilia no controle do colesterol e da pressão arterial, promove a saciedade, fortalece os músculos e ossos. É uma excelente fonte de ferro, essencial para prevenir a anemia.</p> <p>Riscos: O consumo excessivo de feijão pode causar gases e inchaço em algumas pessoas. Pessoas com problemas renais devem consumir com moderação.</p> <p>Observações: O feijão é um alimento versátil e pode ser consumido cozido, em sopas, saladas, acompanhamentos e diversos pratos típicos. É uma base importante da dieta em muitas culturas.</p>",
+        link: "https://www.tuasaude.com.br/beneficios-do-feijao/"
+    },
+    {
+        titulo: "Grão de Bico",
+        descricao: "Grupo Alimentar: Leguminosas <p>Nutrientes: Rico em proteínas vegetais, fibras, ferro e vitaminas do complexo B. Também contém ácido fólico e minerais como magnésio e zinco.</p> <p>Benefícios: Auxilia no controle do colesterol e da pressão arterial, promove a saciedade, fortalece os músculos e ossos. É uma excelente fonte de ferro e ácido fólico, essenciais para prevenir a anemia e importantes para gestantes.</p> <p>Riscos: O consumo em excesso pode causar gases e inchaço em algumas pessoas. Pessoas com problemas renais devem consumir com moderação.</p> <p>Observações: O grão de bico é um alimento versátil e pode ser consumido cozido, em saladas, humus, sopas e diversos pratos típicos. É uma base importante da dieta vegetariana e vegana.</p>",
+        link: "https://www.tuasaude.com.br/beneficios-do-grao-de-bico/"
+    },
+    {
+        titulo: "Ovo",
+        descricao: "Grupo Alimentar: Proteínas <p>Nutrientes: Rico em proteínas de alta qualidade, vitaminas do complexo B (especialmente B12), vitamina D e colina. Também contém minerais como selênio e fósforo.</p> <p>Benefícios: Fortalece os músculos e ossos, melhora a função cerebral, auxilia na saúde ocular e possui ação antioxidante. É uma excelente fonte de proteínas, essencial para o crescimento e reparo dos tecidos.</p> <p>Riscos: O consumo excessivo de gema pode aumentar o colesterol. Pessoas com alergia a ovos devem evitar o consumo.</p> <p>Observações: O ovo é um alimento versátil e pode ser consumido cozido, frito, mexido, em omeletes, bolos e diversas outras preparações. É um ingrediente fundamental em muitas receitas.</p>",
+        link: "https://www.tuasaude.com.br/beneficios-do-ovo/"
+    },
+    {
+        titulo: "Queijo",
+        descricao: "Grupo Alimentar: Laticínios <p>Nutrientes: Rico em proteínas, cálcio, fósforo, vitaminas do complexo B e gordura saturada. O tipo de queijo influencia o perfil nutricional.</p> <p>Benefícios: Fortalece os ossos e dentes, auxilia na formação de músculos e tecidos, contribui para a saúde cardiovascular e é uma ótima fonte de proteína.</p> <p>Riscos: O consumo excessivo de queijo pode aumentar o risco de doenças cardiovasculares devido ao alto teor de gordura saturada. Pessoas com intolerância à lactose devem evitar ou consumir queijos sem lactose.</p> <p>Observações: Existem diversos tipos de queijo, cada um com características nutricionais e de sabor diferentes. É importante escolher queijos com baixo teor de gordura e sal.</p>",
+        link: "https://www.tuasaude.com.br/beneficios-do-queijo/"
     }
 ];
 
