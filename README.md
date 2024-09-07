@@ -24,7 +24,7 @@ Salus é uma aplicação web que ajuda as pessoas a fazerem escolhas alimentares
 
 **Contribuições**
 
-Contribuições são bem-vindas! Abra um pull request para propor alterações.
+Contribuições são bem-vindas! 
 
 **Licença**
 
